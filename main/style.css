@@ -1,0 +1,316 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.back{
+    background-image: url(images/1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 5%;
+}
+nav{
+    width: 100%;
+    height: 75px;
+    line-height: 75px;
+    padding: 0px 10px;
+    position: fixed;
+    background-color: #f0ad4e;
+}
+nav .logo p{
+    font-size: 30px;
+    font-weight: bold;
+    float: left;
+    color: antiquewhite;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+}
+nav .logo a{
+    text-decoration: none;
+    color: antiquewhite;
+}
+nav .logo a:hover{
+    color: chocolate;
+    font-size: 220%;
+}
+nav ul{
+    float: right;
+}
+nav li{
+    display: inline-block;
+    list-style: none;
+}
+nav li a{
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 0px 30px;
+    color: aliceblue;
+    text-decoration: none;
+}
+nav li a:hover{
+    color: chocolate;
+    font-size: 200%;
+}
+.home{
+    padding: 270px 0px;
+    text-align: center;
+    color: darkgray;
+    font-size: 200%;
+    
+}
+.home span{
+    color: lightgray;
+    font-size: 70%;
+
+}
+.home button{
+   border: #080808;
+   background-color: #f0ad4e;
+   border-radius: 50px;
+   padding: 15px 30px;
+   font-size: 18px;
+   color: rgb(8, 8, 8);
+   cursor: pointer;
+}
+.home button a{
+    color: #080808;
+    font-weight: bold;
+    text-decoration: none;
+    
+}
+.home button:hover{
+    background-color: #e7d9dd;
+    font-size: 100%;
+   
+}
+.info{
+    background-image: url(images/2.jpg);
+
+    background-repeat: no-repeat;
+    padding: 50px 0;
+}
+.info h2{
+  text-transform: uppercase;
+  padding-bottom: 4%;
+  font-family: 'Times New Roman';
+  font-size: 200%;
+}
+.info h3{
+    text-transform: uppercase;
+    padding-bottom: 2%;
+    font-family: 'Times New Roman';
+    font-size: 130%;
+}
+.info p{
+    font-size: 130%;
+    font-family: 'Times New Roman';
+}
+.info img{
+      float: right;
+      display: inline;
+     
+      
+      
+}
+.service h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Times New Roman';
+    font-size: 240%;
+    padding-top: 5%;
+}
+.con{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+.item{
+    flex: 1 1 22%;
+    margin: 15px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+.item img{
+    width: 100%;
+    height: auto;
+}
+.item h2{
+    font-size: 1.5em;
+    padding: 15px;
+    text-transform: uppercase;
+}
+.item p{
+    font-size: 1em;
+    padding: 0 15px 15px 15px;
+    color: #555;
+}
+.con{
+    background-image: url(images/2.jpg);
+    
+}
+.tr{
+    background-color: #080808;
+    background-size: cover;
+}
+.tr h1{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 320%;
+    color: yellow;
+}
+.o{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+.mil{
+    flex: 1 1 22%;
+    margin: 15px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+.mil img{
+    width: 100%;
+    height: auto;
+}
+.mil h2{
+    font-size: 1.5em;
+    padding: 15px;
+    text-transform: uppercase;
+}
+.mil p{
+    font-size: 1em;
+    padding: 0 15px 15px 15px;
+    color: #555;
+}
+.o{
+   background-color: #080808;
+    
+}   
+.plns{
+    background-color: #5c539d;
+      background-size: cover;
+
+    }
+
+.plns h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 270%;
+    color: darkgray;
+}
+.pr{
+    display: flex; 
+    justify-content: center; 
+    flex-wrap: wrap; 
+    gap: 20px; 
+    padding: 0 20px;
+}
+.pric{
+    background: #1f283b;
+    padding: 10% 15;
+    border-radius: 10px;
+    color: #e7d9dd;
+    text-align: center;
+    flex: 1 1 30%;
+    margin: 10px;
+}
+.pric p{
+    font-size: 22px;
+}
+.pric h3{
+    font-size: 44px;
+    margin: 20px 0 40px;
+    font-weight: 500;
+
+}
+.pric h3 span{
+    font-size: 16px;
+}
+.pric ul{
+    text-align: left;
+    margin: 20px 0;
+    color: #ddd;
+    list-style: none;
+    font-size: 35%;
+    padding: 10px 20px;
+}
+.pric ul li{
+    margin: 15px 0;
+}
+.pric button{
+    width: 100%;
+    padding: 14px 0;
+    background: transparent;
+    color: white;
+    font-size: 15px;
+    border: 1px ;
+    border-radius: 6px;
+    margin-top: 30px;
+    cursor: pointer;
+
+}
+.pric button a{
+    text-decoration: none;
+    color: #eb12cee8;
+}
+.pric button:hover{
+    background: gray;
+    font-size: large;
+}
+.join{
+    text-align: center;
+   background:#121212;
+   background-size: cover;
+}
+.join h1{
+    color: #ddd;
+    font-size: 350%;
+}
+.join h1:hover{
+    font-size: 600%;
+    cursor: pointer;
+}
+.join p{
+    color: #ddd;
+    margin-top: 130px;
+}
+.join p:hover{
+    font-size: 200%;
+    cursor: pointer;
+}
+.join button{
+      margin-top:  150px;    
+    cursor: pointer;
+    border-radius: 50px;
+    padding: 5px 40px;
+    background-color: orangered;
+    font-size: 18px;
+}
+.join button a{
+    text-decoration: none;
+    color: black;
+    font-size: 200%;
+}
+.join button:hover{
+    background: white;
+    font-size: x-large;
+}
+.costumer{
+    background-color: #121212;
+}
+.costumer h1{
+    padding-top: 200px;
+    color: white;
+    font-size: 25px;
+    margin-top: 200%;
+}
